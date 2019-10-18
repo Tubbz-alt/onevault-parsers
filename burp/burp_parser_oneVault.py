@@ -5,7 +5,7 @@
 A basic script to parse BurpSuite XML project files into seperate host CSV files,
 which are formatted to be uploaded into oneVault projects.
 
- - basic use: python3 burp_to_oneVault.py myScanFile.nessus
+ - basic use: python3 burp_to_oneVault.py myScanFile.xml
 
 The XML file is parsed and a CSV file for each host in the file
 is created under the /output/ folder. These individual files can then be uploaded
